@@ -1,38 +1,229 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&family=Major+Mono+Display&display=swap');
+/* font-family: 'IBM Plex Mono', monospace;
+font-family: 'Major Mono Display', monospace; */
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'IBM Plex Mono', monospace !important;
+  background-color: #0a192f !important;
+
+}
+.site-body{
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+
+
+.nav-bar{
+  /* background-color: #64FFDA; */
+  color: #64FFDA !important;
+  box-shadow: 0px 2px 5px #CCD6F6;
+  padding: 20px 20px 20px 70px !important;
+
+}
+.navbar-brand{
+  margin-right: 350px !important;
+  font-weight: 500;
+  font-size: 20pt !important;
+  color: #64FFDA !important;
+}
+.my-logo{
+  width: 60px;
+  border-radius: 50%;
+}
+.nav-link{
+  font-size: 14pt !important;
+  margin: 0 10px;
+  color: #CCD6F6 !important;
+}
+.nav-link:hover{
+  text-decoration: overline;
+}
+.nav-link > span{
+  color: #64FFDA !important;
+}
+.button-navbar{
+  background-color: #64FFDA !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+/*Main section*/
+
+/*Hero section*/
+.hero{
+  color: #CCD6F6;
+  padding: 100px;
+}
+.hi{
+  color: #CCD6F6;
+  font-size: 16pt;
+
+}
+.hero h1{
+  color: #64FFDA;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 48pt;
+}
+.hero h3{
+  font-size: 20pt;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.brief-intro1, .brief-intro2{
+  font-size: 14pt;
+}
+.brief-intro1{
+  margin-top: 50px;
+}
+.highlight{
+  color: #64FFDA;
+  font-weight: bold;
+}
+.line{
+  color: #64FFDA;
+  width: 80%;
+}
+
+
+/*About me section*/
+.about-me{
+  color: #CCD6F6;
+  padding: 100px;
+}
+.about-me h3{
+  font-size: 36pt;
+  margin-bottom: 50px;
+}
+.about-details{
+  font-size: 14pt;
+  line-height: 1.6;
+  display: flex;
+  gap: 100px;
+}
+/* .about-details-paragraph{
+  background-color: red;
+  height: 400px;
+} */
+.about-details img{
+  width: 400px;
+  height: 400px;
+  box-shadow: 8px 6px #64FFDA;
+  margin-bottom: 30px;
+}
+.about-details img:hover{
+  box-shadow: 15px 15px #64FFDA;
+  cursor: pointer;
+}
+
+
+
+
+/*Experience section*/
+.experience{
+    color: #CCD6F6;
+    padding: 100px;
+}
+.experience-heading{
+  font-size: 36pt;
+  margin-bottom: 50px;
+}
+.experience-view-bar{
+  display: flex;
+  background-color: blue;
+  padding: 20px;
+}
+.experience-view-bar h3{
+  margin-right: auto;
+}
+.experience-view-bar button{
+  background-color: #0a192f;
+  color: #CCD6F6;
+  font-size: 16pt;
+  font-weight: bolder;
+  width: 70px;
+  border: 0;
+  border-radius: 5px;
+}
+.experience-details{
+  padding: 30px;
+  font-size: 14pt;
+}
+.experience-item{
+  width: 70%;
+  box-shadow: 8px 6px #64FFDA;
+  margin-bottom: 30px;
+}
+.experience-item:hover{
+  box-shadow: 15px 15px #64FFDA;
+  cursor: pointer;
+}
+
+
+
+
+
+/*Social Media*/
+.socials{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: fixed;
+  top: 300px;
+  right: 20px;
+}
+.socials img{
+  width: 40px;
+  margin-bottom: 10px;
+}
+.socials img:hover{
+  width: 50px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/*Footer Section*/
+.footer{
+  color: #CCD6F6;
+  text-align: center;
+}
+.footer-inside{
+  padding: 100px;
+}
+.footer h3{
+  font-size: 36pt;
+  margin-bottom: 50px;
+}
+.footer-details{
+  font-size: 14pt;
+}
+.thank-you{
+  font-size: 16pt;
+}
+.footer button{
+  margin-bottom: 20px;
+  background-color: blue;
+  padding: 20px 40px;
+  font-size: 14pt;
+  color: #CCD6F6;
+  outline: none;
+  border: none;
+  box-shadow: 8px 6px #64FFDA;
+  font-weight: bold;
+}
+.footer button:hover{
+  box-shadow: 15px 15px #64FFDA;
+  cursor: pointer;
+}
+.footer small{
+  margin: 10px;
+}
+.footer small a{
+  color: #CCD6F6;
 }
