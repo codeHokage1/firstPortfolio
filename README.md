@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# First Portfolio - Using React, Bootstrap and CSS
+My first portfolio using React
+
+Link to the deployed project: https://first-portfolio-mocha.vercel.app/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
